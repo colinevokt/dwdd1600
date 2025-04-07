@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Colin Vokt">
+    <meta name="description" content="Learn about the best information for your next trip in Skyrim">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="skyrim.css">
+    <title>Skyrim Tourism Services: Whiterun</title>
+</head>
+
+<body>
+    <!--start the page head -->
+    <header>
+        <span>
+            Skyrim Tourism Services
+        </span>
+
+
+    </header>
+
+    <!--start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">General</a></li>
+            <li class="active"><a href="planatrip.html">Plan A Trip</a></li>
+            <li><a href="cities.html">Cities</a></li>
+            <li><a href="whiterun.html">Whiterun</a></li>
+
+
+
+        </ul>
+
+    </nav>
+
+    <!--start the main content-->
+    <main>
+        <h1>Schedule Your Next Adventure!</h1>
+
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label> Last Name* <input type="text" name="lname" required></label>
+                <label> Cell Phone* <input type="tel" name="Cell Phone" required></label>
+                <label> Email* <input type="text" name="email" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    Pick a Destination
+                </legend>
+                <label><input type="radio" name="method" value="whiterun"> Whiterun</label>
+                <label><input type="radio" name="method" value="Markarth"> Markarth</label>
+                <label><input type="radio" name="method" value="Solitude"> Solitude</label>
+                <label><input type="radio" name="method" value="Dawnstar"> Dawnstar</label>
+                <label><input type="radio" name="method" value="Morthal"> Morthal</label>
+                <label><input type="radio" name="method" value="Windhelm"> Windhelm</label>
+                <label><input type="radio" name="method" value="Falkreath"> Falkreath</label>
+                <label><input type="radio" name="method" value="Riften"> Riften</label>
+                <label><input type="radio" name="method" value="Winderhold"> Winterhold</label>
+
+
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Optional Bodyguards
+                </legend>
+                <label><input type="checkbox" name="lydia" value="chosen"> Lydia, Housecarl of Whiterun</label>
+                <label><input type="checkbox" name="alea" value="chosen"> Alea, the Huntress</label>
+                <label><input type="checkbox" name="faendal" value="chosen">Faendal of Riverwood</label>
+            </fieldset>
+
+            <fieldset>
+            <label>Transportation Method
+            <select name="transport">
+                <option value="none">
+                    Please Select
+                </option>
+                <option value="horseback">
+                    Horseback
+                </option>
+                <option value="dragon">
+                    Dragon
+                </option>
+                <option value="carriage"> 
+                    Carriage
+                </option>
+            </select>
+        </label>
+    </fieldset>
+
+
+    <label>Additional Accommodations
+        <textarea name="accommodations">
+        </textarea>
+    </label>
+
+            <input type="submit" value="Schedule Trip">
+        </form>
+
+    </main>
+
+    <!--start the page footer-->
+    <footer>
+        <p>
+            &copy; 2025 &bull; Colin Vokt &bull; Web Essentials
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
